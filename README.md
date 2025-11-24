@@ -28,11 +28,12 @@ A Flask-based web app enables users to upload images and receive predictions, al
 
 ## Development Requirements
 
-<img width="692" height="317" alt="1" src="https://github.com/user-attachments/assets/7270de6f-05f0-4595-84d5-f73619c425e1" />
+<img width="692" height="317" alt="1" src="https://github.com/user-attachments/assets/ee24ef97-3d2a-4524-9c1b-45c3d2f4f603" />
+
 
 ## System Architecture
 
-![2](https://github.com/user-attachments/assets/2759b7c0-b629-4076-a664-a58951980712)
+![2](https://github.com/user-attachments/assets/9e383925-7662-4de2-a561-c26713d4da8c)
 
 
 📌 Ensemble Formula:
@@ -68,9 +69,10 @@ The ensemble model demonstrated improved performance across all classes compared
 
 The final deployed model achieved:
 
-<img width="507" height="346" alt="3" src="https://github.com/user-attachments/assets/239ed591-3dfb-46c6-97df-125076b88d1b" />
+<img width="507" height="346" alt="3" src="https://github.com/user-attachments/assets/234f3fdb-1eb5-4ddc-8efc-bc6483291d30" />
 
-<img width="676" height="215" alt="4" src="https://github.com/user-attachments/assets/d1c1468c-8306-480f-be26-2dccdf3be891" />
+<img width="676" height="215" alt="4" src="https://github.com/user-attachments/assets/a06fd009-e392-47c7-8b8c-14e7731f9441" />
+
 
 ### 4. Setup Instructions
 #### Run the Flask Web App:
@@ -152,13 +154,15 @@ This system enables early-stage detection, which may support medical professiona
 
 #### Web-page asking for input from user
 
-<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/519c4f74-6dba-42c4-9d48-ee570f977623" />
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/e21ff2d8-89cd-4469-b462-9ce465741c55" />
 
-<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/d106170a-9322-4847-9dba-37a71180f197" />
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/e7dca178-195a-4242-9e54-f4b260368c87" />
+
 
 #### Web-page displays the result
 
-<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/b92e634b-75d8-4d4a-9eb4-6d555ccdea10" />
+<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/6daef34a-edc8-4aa4-abd0-e2e387a7243a" />
+
 
 ## Future Enhancements
 
