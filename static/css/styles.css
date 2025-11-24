@@ -1,0 +1,15 @@
+/* static/css/styles.css */
+body {
+  background: linear-gradient(180deg, #ffd6e7 0%, #ffeef8 100%);
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.form-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  max-width: 900px;
+  margin: 0 auto;
+}

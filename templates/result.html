@@ -1,0 +1,39 @@
+<!-- templates/result.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Result - Cervical cancer detection</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+  <div class="container form-card">
+    <h1 class="text-center">Result</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{{ image_url }}" class="img-fluid rounded" alt="uploaded image">
+      </div>
+      <div class="col-md-6">
+        <h3>Prediction: <span class="badge bg-danger">{{ prediction }}</span></h3>
+        <ul>
+          {% for k,v in confidences.items() %}
+            <li>{{ k }}: {{ (v*100)|round(2) }}%</li>
+          {% endfor %}
+        </ul>
+
+        <h5>User Info</h5>
+        <ul>
+        {% for k,v in user_info.items() %}
+          <li><b>{{ k }}:</b> {{ v }}</li>
+        {% endfor %}
+        </ul>
+
+        <a href="{{ pdf_url }}" class="btn btn-success" download>Download Report (PDF)</a>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Predict Another</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
