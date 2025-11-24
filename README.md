@@ -30,11 +30,9 @@ A Flask-based web app enables users to upload images and receive predictions, al
 
 <img width="692" height="317" alt="1" src="https://github.com/user-attachments/assets/ee24ef97-3d2a-4524-9c1b-45c3d2f4f603" />
 
-
 ## System Architecture
 
 ![2](https://github.com/user-attachments/assets/9e383925-7662-4de2-a561-c26713d4da8c)
-
 
 📌 Ensemble Formula:
 final_probabilities = (EfficientNetB0_output + MobileNetV2_output) / 2
@@ -72,7 +70,6 @@ The final deployed model achieved:
 <img width="507" height="346" alt="3" src="https://github.com/user-attachments/assets/234f3fdb-1eb5-4ddc-8efc-bc6483291d30" />
 
 <img width="676" height="215" alt="4" src="https://github.com/user-attachments/assets/a06fd009-e392-47c7-8b8c-14e7731f9441" />
-
 
 ### 4. Setup Instructions
 #### Run the Flask Web App:
@@ -158,11 +155,9 @@ This system enables early-stage detection, which may support medical professiona
 
 <img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/e7dca178-195a-4242-9e54-f4b260368c87" />
 
-
 #### Web-page displays the result
 
 <img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/6daef34a-edc8-4aa4-abd0-e2e387a7243a" />
-
 
 ## Future Enhancements
 
@@ -186,4 +181,3 @@ neural networks,” IEEE Access, vol. 8, pp. 91245–91256, 2020.
 
 [4] K. Zhou and X. Chen, “Ensemble learning for medical image classification: A comprehensive 
 review,” Medical Image Analysis, 2021.
-
