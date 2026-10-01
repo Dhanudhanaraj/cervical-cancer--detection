@@ -33,7 +33,7 @@ https://youtu.be/C4B1-b9jOIo?si=Gl8sl2LTzwg2NLVb
 
 ## Development Requirements
 
-<img width="657" height="317" alt="1" src="https://github.com/user-attachments/assets/ee24ef97-3d2a-4524-9c1b-45c3d2f4f603" />
+<img width="857" height="317" alt="1" src="https://github.com/user-attachments/assets/ee24ef97-3d2a-4524-9c1b-45c3d2f4f603" />
 
 ## System Architecture
 
@@ -153,7 +153,7 @@ The performance of the individual models and the ensemble model was
 evaluated using accuracy, precision, recall, F1-score, and confusion
 matrix.
 
-<img width="800" height="533" alt="model_performance_comparison_small" src="https://github.com/user-attachments/assets/7a89d963-b902-4f35-b0a6-e9b1cc340e27" />
+<img width="450" height="350" alt="model_performance_comparison_small" src="https://github.com/user-attachments/assets/7a89d963-b902-4f35-b0a6-e9b1cc340e27" />
 
 Although MobileNetV2 achieved a higher overall accuracy of 96%, its
 performance was not equally balanced across all three classes.
