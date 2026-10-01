@@ -33,7 +33,7 @@ https://youtu.be/C4B1-b9jOIo?si=Gl8sl2LTzwg2NLVb
 
 ## Development Requirements
 
-<img width="450" height="317" alt="1" src="https://github.com/user-attachments/assets/ee24ef97-3d2a-4524-9c1b-45c3d2f4f603" />
+<img width="657" height="317" alt="1" src="https://github.com/user-attachments/assets/ee24ef97-3d2a-4524-9c1b-45c3d2f4f603" />
 
 ## System Architecture
 
