@@ -1,4 +1,4 @@
-# TEAM.NO.49:AI Based Multi-Class Ensemble Learning System for Cervical Cancer Detection
+# AI Based Multi-Class Ensemble Learning System for Cervical Cancer Detection
 
 ## About
 
@@ -13,6 +13,11 @@ This project focuses on detecting cervical cancer using a deep learning ensemble
 
 The solution integrates EfficientNetB0 and MobileNetV2 (fine-tuned), combined using soft probability voting, achieving a final accuracy of 95%.
 A Flask-based web app enables users to upload images and receive predictions, along with a downloadable medical-style PDF report.
+
+## 🎥 Project Demo
+Watch the complete project demonstration on YouTube through the below attached link:
+
+https://youtu.be/C4B1-b9jOIo?si=Gl8sl2LTzwg2NLVb
 
 ## Features
 
@@ -63,7 +68,7 @@ iii) The model was trained in Google Colab using GPU acceleration with Adam opti
 
 Evaluation metrics included: accuracy, precision, recall, F1-score, and confusion matrix.
 
-The ensemble model demonstrated improved performance across all classes compared to individual models.
+The individual models and the ensemble model were evaluated using accuracy, precision, recall, F1-score, and confusion matrix to compare their classification performance.
 
 The final deployed model achieved:
 
@@ -143,7 +148,27 @@ def predict_image(img_path):
 ```
 
 ## Results
-The final ensemble model achieved an accuracy of 95%, providing strong performance in classifying cervical cytology images across all three classes (Normal, Precancerous, Malignant).
+
+The performance of the individual models and the ensemble model was
+evaluated using accuracy, precision, recall, F1-score, and confusion
+matrix.
+
+<img width="1536" height="1024" alt="Model Performance Comparison Table" src="https://github.com/user-attachments/assets/8cbfcbdb-11c8-4bba-b277-2610c760e27a" />
+
+
+Although MobileNetV2 achieved a higher overall accuracy of 96%, its
+performance was not equally balanced across all three classes.
+EfficientNetB0 achieved 63% accuracy but showed comparatively higher
+misclassification.
+
+The soft-voting ensemble achieved 95% overall accuracy while providing
+more balanced classification performance across the Normal,
+Precancerous, and Malignant classes. The ensemble achieved an overall
+weighted precision, recall, and F1-score of 0.95.
+
+Therefore, the ensemble model was selected for deployment because the
+objective was not only to maximize overall accuracy, but also to obtain
+consistent classification performance across all three classes (Normal, Precancerous, Malignant).
 
 This system enables early-stage detection, which may support medical professionals and improve preventive healthcare outcomes.
 
