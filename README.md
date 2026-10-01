@@ -153,8 +153,7 @@ The performance of the individual models and the ensemble model was
 evaluated using accuracy, precision, recall, F1-score, and confusion
 matrix.
 
-<img width="1536" height="1024" alt="Model Performance Comparison Table" src="https://github.com/user-attachments/assets/8cbfcbdb-11c8-4bba-b277-2610c760e27a" />
-
+<img width="800" height="533" alt="model_performance_comparison_small" src="https://github.com/user-attachments/assets/7a89d963-b902-4f35-b0a6-e9b1cc340e27" />
 
 Although MobileNetV2 achieved a higher overall accuracy of 96%, its
 performance was not equally balanced across all three classes.
